@@ -21,7 +21,7 @@ This will build the docker image and listen on port 5000 by default.
 Example with curl:
 
 ```bash
-curl -XPOST --data-binary @yourawesomeroute.gpx http://localhost:5000 > aweseomness.png
+curl -XPOST --data-binary @yourawesomeroute.gpx http://localhost:5000 > awesomeness.png
 ```
 
 Just post the raw .gpx file to the service and the png data will be returned.
