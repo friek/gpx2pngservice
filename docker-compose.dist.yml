@@ -1,0 +1,13 @@
+version: '3.7'
+
+services:
+  gpx2png:
+    build:
+      context: .
+    volumes:
+      - "tmp:/tmp"
+    ports:
+      - "5000:5000"
+
+volumes:
+  tmp:
