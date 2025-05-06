@@ -7,6 +7,8 @@ The perl script uses openstreetmap to get the map tiles.
 Don't blame me for anything. I just needed this to generate images from
 GPX files for a cycling club I'm connected to ;)
 
+**This repository is unmaintained and has been archived as of 2025-05-06**
+
 ## Starting it up.
 Copy docker-compose.dist.yml to docker-compose.yml. Adjust the file
 to your own needs and run:
